@@ -7,7 +7,6 @@ run.config:
       - phalcon
       - curl
       - gd
-      - mbstring
       - zip
       - mcrypt
       - dom
