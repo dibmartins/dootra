@@ -45,6 +45,7 @@ run.config:
   extra_steps:
     - npm install
     - cp nginx.conf /data/etc/nginx/nginx.conf
+    - cp xdebug.ini /data/etc/php.dev.d/xdebug.ini
     - echo "alias phalcon=\'phalcon.php\'" >> /data/var/home/gonano/.bashrc
 
   extra_path_dirs:
